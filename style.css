@@ -1,0 +1,87 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    outline: 0 0 0 0;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+body
+{
+    background-color: rgb(177, 202, 248);
+}
+
+#cont
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+#button
+{
+    text-align: center;
+}
+
+#button button
+{
+    background-color: aliceblue;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 15px 0px;
+    border: solid 2px;
+    transition: 0.5s;
+}
+
+#button button:hover
+{
+    border-color: cornflowerblue;
+    cursor: pointer;
+    color: cornflowerblue
+}
+
+#upgrade
+{
+    display: flex;
+}
+
+.item:hover
+{
+    cursor: pointer;
+    background-color: cornflowerblue;    
+}
+
+.item
+{
+
+    width: 200px;
+    padding: 15px;
+    border: aliceblue 2px solid;
+    border-radius: 10px 10px;
+    transition: 0.5s;
+    margin: 15px;
+}
+
+#save
+{
+    text-align: center;
+}
+
+
+#save button
+{
+    width: 70px;
+    border-radius: 7px 7px;
+    transition: 0.5s;
+    margin: 16px;
+    border: aliceblue 2px solid;
+    background-color: rgb(177, 202, 248);
+}
+
+#save button:hover
+{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+/* arrumar load autoclick */
