@@ -43,6 +43,7 @@ body
 #upgrade
 {
     display: flex;
+    justify-content: center;
 }
 
 .item:hover

@@ -1,0 +1,6 @@
+{
+  "name": "Clicker versão 0.1",
+  "short_name": "clickerV1",
+  "start_url": "/index.html",
+  "display": "standalone"
+}

@@ -97,3 +97,16 @@ function reset()
 }
 
 // arrumar load autoclick 
+
+// SERVICE WORKER
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("serviceworker.js").then((registration) => {
+      console.log("ServiceWorker registrado");
+    })
+    .catch((error) => {
+      console.log("Falha ao registrar Service Worker");
+      console.log(error);
+    });
+}
+
